@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring" />
+        <module name="dockerization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dockerization" target="14" />
       <module name="hello-spring" target="11" />
       <module name="spring-tutorial" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dockerization" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
     </option>
   </component>

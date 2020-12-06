@@ -11,6 +11,9 @@
     <modules>
         <module>hello-spring</module>
         <module>dockerization</module>
+        <module>springboot-admin</module>
+        <module>spring-boot-eureka</module>
+        <module>customer-service</module>
     </modules>
 
 

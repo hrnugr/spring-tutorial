@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dockerization/dockerization.iml" filepath="$PROJECT_DIR$/dockerization/dockerization.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring/hello-spring.iml" filepath="$PROJECT_DIR$/hello-spring/hello-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka/spring-boot-eureka.iml" filepath="$PROJECT_DIR$/spring-boot-eureka/spring-boot-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-tutorial.iml" filepath="$PROJECT_DIR$/spring-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
     </modules>
   </component>
 </project>

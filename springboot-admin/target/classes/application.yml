@@ -1,0 +1,21 @@
+spring:
+   application:
+      name : AdminService
+   boot :
+      admin :
+         notify :
+            slack :
+               webhook-url : https://hooks.slack.com/services/T59877979797676/08908089AL/0999999999996767671eL
+               message : "*#{application.name}*  is *#{to.status}*"
+   security :
+      user :
+         name : admin
+         password : admin
+
+management:
+   security:
+      enabled : false
+
+server :
+   port : 8480
+

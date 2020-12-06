@@ -8,9 +8,10 @@ spring :
       admin :
          client :
             instance :
-               service-url : http://localhost:8480
+              service-url : http://localhost:8480
             username : admin
             password : admin
+            url : http://localhost:8480
 eureka:
   client:
      service-url :

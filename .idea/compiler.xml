@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring" />
         <module name="spring-boot-eureka" />
+        <module name="spring-data-jpa" />
         <module name="dockerization" />
         <module name="customer-service" />
         <module name="springboot-admin" />
@@ -18,6 +19,7 @@
       <module name="dockerization" target="14" />
       <module name="hello-spring" target="11" />
       <module name="spring-boot-eureka" target="14" />
+      <module name="spring-data-jpa" target="14" />
       <module name="spring-tutorial" target="1.5" />
       <module name="springboot-admin" target="14" />
     </bytecodeTargetLevel>
@@ -28,6 +30,7 @@
       <module name="dockerization" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />
+      <module name="spring-data-jpa" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
     </option>
   </component>

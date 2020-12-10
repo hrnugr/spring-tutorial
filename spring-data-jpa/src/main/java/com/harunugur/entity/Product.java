@@ -3,10 +3,11 @@ package com.harunugur.entity;
 import org.hibernate.envers.AuditTable;
 import org.hibernate.envers.Audited;
 import org.hibernate.envers.NotAudited;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Audited
@@ -22,6 +23,7 @@ public class Product{
     private BigDecimal amount;
 
     @NotAudited
+    @DateTimeFormat(pattern = "yyyy-mm-dd")
     private Date createDate;
 
     public Long getId() {

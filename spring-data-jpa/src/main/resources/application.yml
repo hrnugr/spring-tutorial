@@ -1,4 +1,6 @@
 spring:
+   resources:
+      add-mappings : true
    datasource:
       url: jdbc:postgresql://localhost:5432/product_db
       username: postgres
@@ -8,7 +10,7 @@ spring:
    jpa:
       hibernate:
          default_schema: product
-         ddl-auto: create
+         ddl-auto: update
       generate-ddl : true
       properties:
          hibernate:

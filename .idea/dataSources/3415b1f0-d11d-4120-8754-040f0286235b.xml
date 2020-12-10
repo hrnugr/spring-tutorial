@@ -1408,7 +1408,7 @@ false posix/WET
 false posix/Zulu
 false posixrules
 </TimeZones>
-      <StartupTime>1607498074</StartupTime>
+      <StartupTime>1607625982</StartupTime>
     </root>
     <database id="2" parent="1" name="postgres">
       <ObjectId>13395</ObjectId>
@@ -1418,9 +1418,9 @@ false posixrules
     <database id="3" parent="1" name="product_db">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>511</IntrospectionStateNumber>
+      <IntrospectionStateNumber>564</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16413|16415|1
+      <Relations>sequence|table|16487|16489|1
 </Relations>
     </database>
     <role id="4" parent="1" name="pg_execute_server_program">
@@ -1487,7 +1487,6 @@ U/10
       <ObjectId>16385</ObjectId>
       <StateNumber>489</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>499</IntrospectionStateNumber>
     </schema>
     <schema id="18" parent="3" name="public">
       <ObjectId>2200</ObjectId>
@@ -1497,7 +1496,7 @@ UC/10
 </Acl>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>512</IntrospectionStateNumber>
+      <IntrospectionStateNumber>565</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="19" parent="3" name="plpgsql">
@@ -1598,61 +1597,61 @@ UC/10
       <Type>index</Type>
     </access-method>
     <sequence id="31" parent="18" name="hibernate_sequence">
-      <ObjectId>16411</ObjectId>
+      <ObjectId>16461</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>506</StateNumber>
+      <StateNumber>538</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="32" parent="18" name="product_id_seq">
-      <ObjectId>16413</ObjectId>
+      <ObjectId>16487</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>507</StateNumber>
+      <StateNumber>560</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <table id="33" parent="18" name="product">
-      <ObjectId>16415</ObjectId>
+      <ObjectId>16489</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>507</StateNumber>
+      <StateNumber>560</StateNumber>
     </table>
     <table id="34" parent="18" name="product_log">
-      <ObjectId>16421</ObjectId>
+      <ObjectId>16495</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>510</StateNumber>
+      <StateNumber>563</StateNumber>
     </table>
     <table id="35" parent="18" name="revinfo">
-      <ObjectId>16426</ObjectId>
+      <ObjectId>16500</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>510</StateNumber>
+      <StateNumber>563</StateNumber>
     </table>
     <column id="36" parent="33" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>507</StateNumber>
+      <StateNumber>560</StateNumber>
       <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
     <column id="37" parent="33" name="amount">
       <Position>2</Position>
       <DataType>numeric(19,2 digit)|0s</DataType>
-      <StateNumber>507</StateNumber>
+      <StateNumber>560</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <column id="38" parent="33" name="create_date">
       <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
-      <StateNumber>507</StateNumber>
-      <TypeId>1114</TypeId>
+      <DataType>date|0s</DataType>
+      <StateNumber>560</StateNumber>
+      <TypeId>1082</TypeId>
     </column>
     <column id="39" parent="33" name="name">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>507</StateNumber>
+      <StateNumber>560</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="40" parent="33" name="product_pkey">
-      <ObjectId>16419</ObjectId>
-      <StateNumber>507</StateNumber>
+      <ObjectId>16493</ObjectId>
+      <StateNumber>560</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1661,8 +1660,8 @@ UC/10
       <ClassIds>3124</ClassIds>
     </index>
     <key id="41" parent="33" name="product_pkey">
-      <ObjectId>16420</ObjectId>
-      <StateNumber>507</StateNumber>
+      <ObjectId>16494</ObjectId>
+      <StateNumber>560</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
@@ -1671,37 +1670,37 @@ UC/10
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>508</StateNumber>
+      <StateNumber>561</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="43" parent="34" name="rev">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>508</StateNumber>
+      <StateNumber>561</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="44" parent="34" name="revtype">
       <Position>3</Position>
       <DataType>smallint|0s</DataType>
-      <StateNumber>508</StateNumber>
+      <StateNumber>561</StateNumber>
       <TypeId>21</TypeId>
     </column>
     <column id="45" parent="34" name="amount">
       <Position>4</Position>
       <DataType>numeric(19,2 digit)|0s</DataType>
-      <StateNumber>508</StateNumber>
+      <StateNumber>561</StateNumber>
       <TypeId>1700</TypeId>
     </column>
     <column id="46" parent="34" name="name">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>508</StateNumber>
+      <StateNumber>561</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="47" parent="34" name="product_log_pkey">
-      <ObjectId>16424</ObjectId>
-      <StateNumber>508</StateNumber>
+      <ObjectId>16498</ObjectId>
+      <StateNumber>561</StateNumber>
       <ColNames>id
 rev</ColNames>
       <Unique>1</Unique>
@@ -1711,18 +1710,18 @@ rev</ColNames>
       <ClassIds>3124,1978</ClassIds>
     </index>
     <key id="48" parent="34" name="product_log_pkey">
-      <ObjectId>16425</ObjectId>
-      <StateNumber>508</StateNumber>
+      <ObjectId>16499</ObjectId>
+      <StateNumber>561</StateNumber>
       <ColNames>id
 rev</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>product_log_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="49" parent="34" name="fk29qrbga0dod7tatokqn29qwx">
-      <ObjectId>16431</ObjectId>
-      <StateNumber>510</StateNumber>
+      <ObjectId>16505</ObjectId>
+      <StateNumber>563</StateNumber>
       <ColNames>rev</ColNames>
-      <RefTableId>16426</RefTableId>
+      <RefTableId>16500</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>revinfo</RefTableName>
       <RefKeyName>revinfo_pkey</RefKeyName>
@@ -1732,18 +1731,18 @@ rev</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>509</StateNumber>
+      <StateNumber>562</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="51" parent="35" name="revtstmp">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>509</StateNumber>
+      <StateNumber>562</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="52" parent="35" name="revinfo_pkey">
-      <ObjectId>16429</ObjectId>
-      <StateNumber>509</StateNumber>
+      <ObjectId>16503</ObjectId>
+      <StateNumber>562</StateNumber>
       <ColNames>rev</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1752,8 +1751,8 @@ rev</ColNames>
       <ClassIds>1978</ClassIds>
     </index>
     <key id="53" parent="35" name="revinfo_pkey">
-      <ObjectId>16430</ObjectId>
-      <StateNumber>509</StateNumber>
+      <ObjectId>16504</ObjectId>
+      <StateNumber>562</StateNumber>
       <ColNames>rev</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>revinfo_pkey</UnderlyingIndexName>

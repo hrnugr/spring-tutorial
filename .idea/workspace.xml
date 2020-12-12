@@ -25,6 +25,10 @@
     <list default="true" id="3c410406-daa0-4faa-95f3-2bcf35233a12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-graphql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-graphql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-graphql/src/main/java/com/harunugur/service/CustomerQueryResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-graphql/src/main/java/com/harunugur/service/CustomerQueryResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-graphql/src/main/resources/graphql/customer.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/spring-graphql/src/main/resources/graphql/customer.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-graphql/target/classes/com/harunugur/service/CustomerQueryResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-graphql/target/classes/com/harunugur/service/CustomerQueryResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-graphql/target/classes/graphql/customer.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/spring-graphql/target/classes/graphql/customer.graphqls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +189,7 @@
       <workItem from="1607499492020" duration="5082000" />
       <workItem from="1607606527468" duration="7339000" />
       <workItem from="1607802055282" duration="3451000" />
-      <workItem from="1607807966635" duration="2234000" />
+      <workItem from="1607807966635" duration="5944000" />
     </task>
     <servers />
   </component>

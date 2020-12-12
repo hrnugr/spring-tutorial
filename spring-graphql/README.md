@@ -3,7 +3,7 @@
     {
         helloWithParameter(name:"Harun")
     }
-### Result
+#### Result
     {
         "data": {
             "helloWithParameter": "Hello Harun"
@@ -18,7 +18,7 @@
             email
         }
     }
-#### Result
+##### Result
     {
         "data": {
             "getAllCustomers": [
@@ -40,7 +40,7 @@
             ]
         }
     }
-### Get Customer By CustomerId
+### 3- Get Customer By Customer Id
     {
         getCustomerById(id:1){
             id,
@@ -49,7 +49,7 @@
             email
         }
     }
-### Result
+#### Result
     {
         "data": {
             "getCustomerById": {
@@ -57,6 +57,34 @@
                 "name": "harun",
                 "surname": "ugur",
                 "email": "ugur.harun@yandex.com"
+            }
+        }
+    }
+
+#### 4 - Create New Customer
+    mutation{
+        createCustomer(
+            id:6,
+            name: "Mehmet",
+            surname: "Sepil",
+            email:"mehmet.sepil@goztepe.org",
+            birthDate:"1960-10-01"
+        ){
+            id,
+            name,
+            surname,
+            email
+        }
+    }
+
+#### Result 
+    {
+        "data": {
+            "createCustomer": {
+                "id": "6",
+                "name": "Mehmet",
+                "surname": "Sepil",
+                "email": "mehmet.sepil@goztepe.org"
             }
         }
     }

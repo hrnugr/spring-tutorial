@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring" />
-        <module name="spring-boot-eureka" />
         <module name="spring-data-jpa" />
-        <module name="dockerization" />
         <module name="customer-service" />
+        <module name="spring-graphql" />
+        <module name="spring-boot-eureka" />
+        <module name="dockerization" />
         <module name="springboot-admin" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="hello-spring" target="11" />
       <module name="spring-boot-eureka" target="14" />
       <module name="spring-data-jpa" target="14" />
+      <module name="spring-graphql" target="14" />
       <module name="spring-tutorial" target="1.5" />
       <module name="springboot-admin" target="14" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
       <module name="hello-spring" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />
       <module name="spring-data-jpa" options="-parameters" />
+      <module name="spring-graphql" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
     </option>
   </component>

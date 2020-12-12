@@ -1,0 +1,11 @@
+type Customer{
+    id: ID!,
+    name: String!,
+    surname: String!,
+    email: String!
+}
+
+extend type Query {
+    getAllCustomers: [Customer]!
+    getCustomerById(id: ID!): Customer!
+}

@@ -1,16 +1,16 @@
-####End Point: http://localhost:8080/graphiql
-###1 - Basic Hello Example
+#### End Point: http://localhost:8080/graphiql
+### 1 - Basic Hello Example
     {
         helloWithParameter(name:"Harun")
     }
-###Result
+### Result
     {
         "data": {
             "helloWithParameter": "Hello Harun"
         }
     }
 
-###2 - Get All Customers
+### 2 - Get All Customers
     {
         getAllCustomers{
             id,
@@ -18,7 +18,7 @@
             email
         }
     }
-####Result
+#### Result
     {
         "data": {
             "getAllCustomers": [
@@ -40,7 +40,7 @@
             ]
         }
     }
-###Get Customer By Id
+### Get Customer By CustomerId
     {
         getCustomerById(id:1){
             id,
@@ -49,7 +49,7 @@
             email
         }
     }
-###Result
+### Result
     {
         "data": {
             "getCustomerById": {

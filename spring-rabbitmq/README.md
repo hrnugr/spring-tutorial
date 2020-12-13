@@ -7,4 +7,4 @@
 ###  Send Message to Queue
 #### url : http://localhost:8080/send , Request Type : POST
 #### Result
-![alt text](https://imghub.io/i/a6KKr)
+![alt text](https://s1.imghub.io/a6KKr.png)

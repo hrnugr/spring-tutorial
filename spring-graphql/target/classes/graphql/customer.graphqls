@@ -18,4 +18,5 @@ extend type Query {
 
 type Mutation {
     createCustomer(id: ID!, name: String!, surname: String!,  email: String!, birthDate: String!) : Customer!
+    deleteCustomer(id: ID!) : String
 }

@@ -88,3 +88,13 @@
             }
         }
     }
+### 5 - Delete Customer
+    mutation{
+        deleteCustomer(id:2)
+    }
+#### Result 
+    {
+        "data": {
+          "deleteCustomer": "Customer deleted."
+        }
+    }

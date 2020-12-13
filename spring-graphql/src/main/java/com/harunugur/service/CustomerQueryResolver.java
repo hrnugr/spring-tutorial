@@ -2,12 +2,14 @@ package com.harunugur.service;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import com.harunugur.exceptions.RecordNotFoundException;
 import com.harunugur.models.Customer;
 import org.springframework.stereotype.Component;
 
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 @Component
 public class CustomerQueryResolver implements GraphQLQueryResolver, GraphQLMutationResolver {
@@ -41,6 +43,17 @@ public class CustomerQueryResolver implements GraphQLQueryResolver, GraphQLMutat
        getCustomerList().add(customer);
 
         return customer;
+    }
+
+    public String deleteCustomer(Long id) {
+
+        if (getCustomerById(id) == null) {
+            throw new RecordNotFoundException("Record Not Found");
+        }
+
+        getCustomerList().remove(id);
+
+        return new String("Customer deleted.");
     }
 
     public static List<Customer> getCustomerList() {

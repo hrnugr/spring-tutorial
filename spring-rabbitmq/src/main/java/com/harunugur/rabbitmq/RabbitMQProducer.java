@@ -1,4 +1,4 @@
-package com.harunugur.controller;
+package com.harunugur.rabbitmq;
 
 import com.harunugur.model.Blog;
 import com.harunugur.service.RabbitMQService;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BloggerController {
+public class RabbitMQProducer {
 
     @Autowired
     private RabbitMQService rabbit;

@@ -23,7 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c410406-daa0-4faa-95f3-2bcf35233a12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/config/RabbitMQConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/rabbitmq/RabbitMQConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/harunugur/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/harunugur/rabbitmq/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerization/src/main/java/com/harunugur/controller/DockerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dockerization/src/main/java/com/harunugur/rabbitmq/DockerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/com/harunugur/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/src/main/java/com/harunugur/rabbitmq/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/harunugur/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/harunugur/rabbitmq/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-rabbitmq/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/config/RabbitMQProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/controller/BloggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/rabbitmq/RabbitMQProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/service/RabbitMQServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/harunugur/service/RabbitMQServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/target/classes/com/harunugur/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/target/classes/com/harunugur/controller/BloggerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rabbitmq/target/classes/com/harunugur/service/RabbitMQServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq/target/classes/com/harunugur/service/RabbitMQServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +222,7 @@
       <workItem from="1607802055282" duration="3451000" />
       <workItem from="1607807966635" duration="7030000" />
       <workItem from="1607865560617" duration="8906000" />
-      <workItem from="1607883707902" duration="3823000" />
+      <workItem from="1607883707902" duration="6574000" />
     </task>
     <servers />
   </component>

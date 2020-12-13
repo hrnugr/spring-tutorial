@@ -1,4 +1,4 @@
-package com.harunugur.controller;
+package com.harunugur.rabbitmq;
 
 import com.harunugur.domain.Customer;
 import org.slf4j.Logger;

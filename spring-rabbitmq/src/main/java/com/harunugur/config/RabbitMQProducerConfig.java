@@ -19,7 +19,7 @@ import java.text.ParseException;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RabbitMQConfig {
+public class RabbitMQProducerConfig {
 
     @Value("${spring.rabbitmq.template.default-receive-queue}")
     private String queueName;

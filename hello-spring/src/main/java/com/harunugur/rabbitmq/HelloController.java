@@ -1,4 +1,4 @@
-package com.harunugur.controller;
+package com.harunugur.rabbitmq;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

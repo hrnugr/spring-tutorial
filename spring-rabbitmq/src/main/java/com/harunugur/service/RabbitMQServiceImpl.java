@@ -1,6 +1,6 @@
 package com.harunugur.service;
 
-import com.harunugur.config.RabbitMQConfig;
+import com.harunugur.config.RabbitMQProducerConfig;
 import com.harunugur.model.Blog;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ public class RabbitMQServiceImpl implements RabbitMQService {
     private AmqpTemplate rabbitTemplate;
 
     @Autowired
-    private RabbitMQConfig config;
+    private RabbitMQProducerConfig config;
 
     @Override
     public void send(Blog blog) {

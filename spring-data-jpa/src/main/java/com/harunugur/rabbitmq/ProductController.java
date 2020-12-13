@@ -1,4 +1,4 @@
-package com.harunugur.controller;
+package com.harunugur.rabbitmq;
 
 import com.harunugur.entity.Product;
 import com.harunugur.service.ProductService;

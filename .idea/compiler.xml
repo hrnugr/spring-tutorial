@@ -9,6 +9,7 @@
         <module name="hello-spring" />
         <module name="spring-data-jpa" />
         <module name="customer-service" />
+        <module name="spring-rabbitmq" />
         <module name="spring-graphql" />
         <module name="spring-boot-eureka" />
         <module name="dockerization" />
@@ -22,6 +23,7 @@
       <module name="spring-boot-eureka" target="14" />
       <module name="spring-data-jpa" target="14" />
       <module name="spring-graphql" target="14" />
+      <module name="spring-rabbitmq" target="14" />
       <module name="spring-tutorial" target="1.5" />
       <module name="springboot-admin" target="14" />
     </bytecodeTargetLevel>
@@ -34,6 +36,7 @@
       <module name="spring-boot-eureka" options="-parameters" />
       <module name="spring-data-jpa" options="-parameters" />
       <module name="spring-graphql" options="-parameters" />
+      <module name="spring-rabbitmq" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
     </option>
   </component>

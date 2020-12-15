@@ -1,6 +1,7 @@
 package com.harunugur.service;
 
 import com.harunugur.entity.Product;
+import com.harunugur.exceptions.DataNotFoundException;
 import com.harunugur.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -35,4 +36,8 @@ public class ProductService {
         return pageable2;
     }
 
+    public Product getProductById(Long id) {
+
+        return productRepository.findById(id).orElseThrow(DataNotFoundException::new);
+    }
 }

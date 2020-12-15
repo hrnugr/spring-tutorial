@@ -13,7 +13,7 @@ public class RabbitMQProducer {
     @Autowired
     private RabbitMQService rabbit;
 
-    @RequestMapping(value = "/send",method = RequestMethod.POST)
+    @RequestMapping(value = "/send", method = RequestMethod.POST)
     public String send() {
         Blog blog = Blog.builder()
                 .id(1L)

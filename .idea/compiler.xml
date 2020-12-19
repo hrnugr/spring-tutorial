@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring" />
         <module name="spring-data-jpa" />
+        <module name="elasticsearch" />
         <module name="customer-service" />
         <module name="spring-rabbitmq" />
         <module name="spring-graphql" />
@@ -19,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="customer-service" target="11" />
       <module name="dockerization" target="14" />
+      <module name="elasticsearch" target="13" />
       <module name="hello-spring" target="11" />
       <module name="spring-boot-eureka" target="14" />
       <module name="spring-data-jpa" target="14" />
@@ -32,6 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer-service" options="-parameters" />
       <module name="dockerization" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />
       <module name="spring-data-jpa" options="-parameters" />

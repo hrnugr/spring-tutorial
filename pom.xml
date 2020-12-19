@@ -17,6 +17,7 @@
         <module>spring-data-jpa</module>
         <module>spring-graphql</module>
         <module>spring-rabbitmq</module>
+        <module>elasticsearch</module>
     </modules>
 
 

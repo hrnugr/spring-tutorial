@@ -16,6 +16,7 @@
         <module name="spring-graphql" />
         <module name="spring-boot-eureka" />
         <module name="dockerization" />
+        <module name="events" />
         <module name="springboot-admin" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="customer-service" target="11" />
       <module name="dockerization" target="14" />
       <module name="elasticsearch" target="13" />
+      <module name="events" target="11" />
       <module name="hello-spring" target="11" />
       <module name="schedule" target="11" />
       <module name="spring-boot-eureka" target="14" />
@@ -38,6 +40,7 @@
       <module name="customer-service" options="-parameters" />
       <module name="dockerization" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
+      <module name="events" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
       <module name="schedule" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />

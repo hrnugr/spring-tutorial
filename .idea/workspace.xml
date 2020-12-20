@@ -23,32 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c410406-daa0-4faa-95f3-2bcf35233a12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/harunugur/schedule/ScheduleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/harunugur/schedule/email/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/java/com/harunugur/schedule/jobs/ScheduledTasksService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/main/resources/static/email.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule/src/test/java/com/harunugur/schedule/ScheduleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/EventsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/api/EventApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/event/CustomSpringEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/listener/CustomSpringEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/publisher/CustomSpringEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events/src/test/java/com/harunugur/events/EventsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -117,14 +105,16 @@
       <command value="spring-boot:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ScheduleApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.EventsApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +169,13 @@
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.harunugur.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="events" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harunugur.events.EventsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,6 +240,7 @@
       <item itemvalue="Spring Boot.ProductServiceApplication" />
       <item itemvalue="Spring Boot.GraphqlApplication" />
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
+      <item itemvalue="Spring Boot.EventsApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -278,7 +276,8 @@
       <workItem from="1608408161575" duration="3155000" />
       <workItem from="1608411448547" duration="4706000" />
       <workItem from="1608464346431" duration="1654000" />
-      <workItem from="1608466414399" duration="3276000" />
+      <workItem from="1608466414399" duration="5636000" />
+      <workItem from="1608481065228" duration="3668000" />
     </task>
     <servers />
   </component>

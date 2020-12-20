@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring" />
         <module name="spring-data-jpa" />
+        <module name="schedule" />
         <module name="elasticsearch" />
         <module name="customer-service" />
         <module name="spring-rabbitmq" />
@@ -23,6 +24,7 @@
       <module name="dockerization" target="14" />
       <module name="elasticsearch" target="13" />
       <module name="hello-spring" target="11" />
+      <module name="schedule" target="11" />
       <module name="spring-boot-eureka" target="14" />
       <module name="spring-data-jpa" target="14" />
       <module name="spring-graphql" target="14" />
@@ -37,6 +39,7 @@
       <module name="dockerization" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
+      <module name="schedule" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />
       <module name="spring-data-jpa" options="-parameters" />
       <module name="spring-graphql" options="-parameters" />

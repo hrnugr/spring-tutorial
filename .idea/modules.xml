@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/schedule/schedule.iml" filepath="$PROJECT_DIR$/schedule/schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka/spring-boot-eureka.iml" filepath="$PROJECT_DIR$/spring-boot-eureka/spring-boot-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-facebook-auth/spring-facebook-auth.iml" filepath="$PROJECT_DIR$/spring-facebook-auth/spring-facebook-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-graphql/spring-graphql.iml" filepath="$PROJECT_DIR$/spring-graphql/spring-graphql.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq/spring-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-rabbitmq/spring-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-tutorial.iml" filepath="$PROJECT_DIR$/spring-tutorial.iml" />

@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/schedule/pom.xml" />
         <option value="$PROJECT_DIR$/events/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-facebook-auth/pom.xml" />
       </list>
     </option>
   </component>

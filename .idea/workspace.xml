@@ -23,20 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c410406-daa0-4faa-95f3-2bcf35233a12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/events/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/EventsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/api/EventApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/event/CustomSpringEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/listener/CustomSpringEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/java/com/harunugur/events/publisher/CustomSpringEventPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events/src/test/java/com/harunugur/events/EventsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/src/main/java/com/harunugur/springfacebookauth/SpringFacebookAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-facebook-auth/src/test/java/com/harunugur/springfacebookauth/SpringFacebookAuthApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -53,6 +60,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,6 +78,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -80,12 +89,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/schedule/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -106,15 +115,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EventsApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,6 +227,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringFacebookAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-facebook-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harunugur.springfacebookauth.SpringFacebookAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="resources/application.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -236,11 +250,12 @@
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.RabbitMqApplication" />
       <item itemvalue="Spring Boot.ScheduleApplication" />
+      <item itemvalue="Spring Boot.EventsApplication" />
       <item itemvalue="Spring Boot.AdminServiceApplication" />
       <item itemvalue="Spring Boot.ProductServiceApplication" />
       <item itemvalue="Spring Boot.GraphqlApplication" />
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
-      <item itemvalue="Spring Boot.EventsApplication" />
+      <item itemvalue="Spring Boot.SpringFacebookAuthApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -277,7 +292,10 @@
       <workItem from="1608411448547" duration="4706000" />
       <workItem from="1608464346431" duration="1654000" />
       <workItem from="1608466414399" duration="5636000" />
-      <workItem from="1608481065228" duration="3668000" />
+      <workItem from="1608481065228" duration="4454000" />
+      <workItem from="1608495313106" duration="28000" />
+      <workItem from="1608755381021" duration="150000" />
+      <workItem from="1608755576476" duration="2905000" />
     </task>
     <servers />
   </component>

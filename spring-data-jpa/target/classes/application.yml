@@ -10,7 +10,7 @@ spring:
    jpa:
       hibernate:
          default_schema: product
-         ddl-auto: update
+         ddl-auto: create-drop
       generate-ddl : true
       properties:
          hibernate:

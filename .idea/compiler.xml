@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-spring" />
         <module name="spring-data-jpa" />
-        <module name="schedule" />
-        <module name="elasticsearch" />
         <module name="customer-service" />
         <module name="spring-rabbitmq" />
-        <module name="spring-graphql" />
         <module name="spring-facebook-auth" />
         <module name="spring-boot-eureka" />
         <module name="dockerization" />
-        <module name="events" />
         <module name="springboot-admin" />
+        <module name="hello-spring" />
+        <module name="schedule" />
+        <module name="elasticsearch" />
+        <module name="spring-graphql" />
+        <module name="events" />
+        <module name="resttemplate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="elasticsearch" target="13" />
       <module name="events" target="11" />
       <module name="hello-spring" target="11" />
+      <module name="resttemplate" target="11" />
       <module name="schedule" target="11" />
       <module name="spring-boot-eureka" target="14" />
       <module name="spring-data-jpa" target="14" />
@@ -44,6 +46,7 @@
       <module name="elasticsearch" options="-parameters" />
       <module name="events" options="-parameters" />
       <module name="hello-spring" options="-parameters" />
+      <module name="resttemplate" options="-parameters" />
       <module name="schedule" options="-parameters" />
       <module name="spring-boot-eureka" options="-parameters" />
       <module name="spring-data-jpa" options="-parameters" />

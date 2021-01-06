@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/events/pom.xml" />
         <option value="$PROJECT_DIR$/spring-facebook-auth/pom.xml" />
         <option value="$PROJECT_DIR$/resttemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/annotations/pom.xml" />
       </list>
     </option>
   </component>
